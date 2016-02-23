@@ -1,0 +1,134 @@
+\documentclass[a4paper,12pt]{article}
+\addtolength{\oddsidemargin}{-1.cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\topmargin}{-3cm}
+\addtolength{\textheight}{3.5cm}
+\makeindex
+
+
+\usepackage[pdftex]{graphicx}
+\usepackage{makeidx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
+% define the title
+\author{Team Delta}
+\title{ Assignment 1}
+\begin{document}
+\setlength{\parskip}{6pt}
+
+% generates the title
+	\begin{titlepage}
+		\begin{center}
+			\includegraphics[width=1\textwidth]{./up-logo.jpg}\\[1.5cm] 
+			\textsc{\LARGE Department of Computer Science} \\ [.5cm]
+			\textsc{\Large COS 301 - Mini Project} \\ [.5cm]
+			\textsc{\Large Assignment 1} \\ [.5cm]
+			\line(1,0){450}\\[.5cm]
+			\huge{\bfseries Software Requirements Specification and Technology Neutral Process Design}\\
+			\line(1,0){450}\\[.5cm]
+			\textsc{\LARGE Team Delta}\\ [0.5cm]
+			
+			
+			\textsc{\small Mpho Sharon Baloyi (14133670)}\\
+			\textsc{\small Dirk de Klerk (28159102)}\\
+			\textsc{\small Killian Kieck (12252213)}\\
+			\textsc{\small Daniel Malangu (13315120)}\\
+			\textsc{\small Dzilafho Mulugisi (13071603)}\\
+			\textsc{\small Duncan Smallwood (13027205)}\\
+			\textsc{\small Dian Veldsman (12081095)}\\
+			
+			
+			
+			
+			
+		\end{center}
+	\end{titlepage}
+	
+\tableofcontents
+\thispagestyle{empty}
+\footnotesize
+\normalsize
+
+
+
+
+\newpage
+\section{Introduction}
+
+This document aims to set out the functional and non-functional requirements of a system as specified by the Department of Computer Science. The system is required to allow the department to collaborate, share, and maintain research articles in an effective and efficient manner. The document will also serve the purpose of communicating the requirements and specifications as needed by the client.
+
+\newpage
+\section{Vision}
+
+The client for this project, Department of Computer Science, has called for the design of an application that will allow the department to keep track of all research publications written and published within the department. The main idea behind the project is to alleviate the stress and time required for collaborating on, maintaining, and completing research articles. We have therefore invisioned the following goals:
+
+	\begin{itemize}
+		\item[$\bullet$] Simplify the effort required in maintaining publications as well as pending works.
+		\item[$\bullet$] Ability to add/remove/specify main author and co-authors.
+		\item[$\bullet$] Keep track of impact scores of different publications
+		\item[$\bullet$] Allow authors and staff members to collaborate on articles.
+		\item[$\bullet$] The ability to add/remove/edit meta-data of said articles.
+		\item[$\bullet$] Allow different levels of privilege on user accounts.
+		\item[$\bullet$] Afford privileged users (HODs) the ability to access addtional information on authors, publications and/or a summary page.  
+		\item[$\bullet$] The need to integrate the software in android or web based applications.
+		\item[$\bullet$] Afford only head authors the ability to remove co-authors as well as transfer authorship.
+	\end{itemize}
+	
+\newpage
+\section{Background}
+
+We find ourselves within the Information Age which means we are bombarded with more information than we can handle. This implies the rise of new challenges. How does one deal with this information overload in a timely and effective manner? Technology is the primary cause of the problem but at the same time provides us with multiples solutions in the form of networking. 
+
+The very nature of research means that a team or individual will constantly have to revise and apply changes to their work as new information becomes available. Some research efforts are simply to large handle on an individual level as is the case with interdiciplinary and cohort studies. Thus effective team work is required. When team members find themselves in remote locations, this can lead to a serious problem. How does one succesfully collaborate effectively and efficiently?
+
+The above problem is what is currently hindering research efforts within the Department of Computer Science and the world! It is for this reason that the client is interested in developing a research repository that will allow them to share, maintain, and collaborate on various research papers in an effective and timely manner. A system, that is easy to use, is thus suggested to enable remote collaboration on research materials allowing the user to save considerably on time and effort. Such a system would certainly improve the throughput of research efforts, thus allowing authors to focus on quality research rather than deadlines.  
+
+\newpage
+\section{Architecture Requirements}
+\subsection{Access Channel Requirements}
+\subsection{Quality Requirements}
+\subsection{Integration Requirements}
+
+\subsection{Architecture Constraints}
+The Architecture constraints were indicated on 16.02.2016 in a Client requirements session and lists the following technologies that will be used in the project:
+\begin{itemize}
+	\item[$\bullet$]HTML (Hypertext Markup Language) 
+	\item[$\bullet$]PHP
+	\item[$\bullet$]AJAX (Asynchronous JavaScript and XML)
+	\item[$\bullet$]Git (Version Control System)
+	\item[$\bullet$]Andriod
+	\\
+\end{itemize}
+
+\newpage
+\section{Functional Requirements and Application Design}
+\subsection{Use Case Prioritisation}
+\begin{itemize}
+	\item[$\bullet$]Registration
+	\item[$\bullet$]Login
+	\item[$\bullet$]Create publication
+	\item[$\bullet$]Add author
+	\item[$\bullet$]Remove author
+	\item[$\bullet$]Edit publication
+	\item[$\bullet$]View publication
+	\item[$\bullet$]View profile
+	\item[$\bullet$]Edit profile
+	\item[$\bullet$]Generate summary
+	\\
+\end{itemize}
+\subsection{Use Case/Services Contracts}
+\subsection{Required functionality}
+\subsection{Process specifications}
+\subsection{Domain Model}
+
+\newpage
+\section{References}
+
+\end{document}
